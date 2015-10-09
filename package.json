@@ -1,0 +1,19 @@
+{
+  "name": "tagparser",
+  "version": "1.0.0",
+  "description": "A simple tag parser",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.14.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "Eduardo Nunes Pereira <eduardonunesp@gmail.com>",
+  "license": "ISC",
+}
