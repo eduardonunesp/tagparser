@@ -5,3 +5,9 @@ machine:
 dependencies:
   override:
     - npm install --dev
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: tagsparser
